@@ -1,0 +1,89 @@
+@charset "utf-8";
+
+.file-textarea{
+	width:98%;
+	font-family:"Trebuchet MS" , arial , verdana;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	padding: 5px;
+	border: 1px solid #333;
+		height: 200px;
+}
+.file-input{
+	width:98%;
+	font-family:"Trebuchet MS" , arial , verdana;
+	font-size: 12px;
+	background-color: #FFFFFF;
+	border: 1px solid #333;
+	padding: 5px;
+
+
+}
+.adorned{
+	padding:3px 8px;
+	float: left;
+	background-color: #666;
+	text-decoration:none;
+	text-align:center;
+	color:#FFF;
+	margin: 0px 2px;
+}
+.adorned a{
+	color: #fff;
+	text-decoration: none;
+}
+.adorned a:hover{
+	color: #CCC;
+}
+
+th.header {   
+    cursor: pointer; 
+    font-weight: bold; 
+    background-repeat: no-repeat; 
+    background-position: center left; 
+    padding-left: 20px; 
+    margin-left: -1px; 
+} 
+th.headerSortDown { 
+    background-image: url(../img/small_desc.gif); 
+    background-color: #3399FF; 
+} 
+th.headerSortUp { 
+    background-image: url(../img/small_asc.gif); 
+    background-color: #3399FF; 
+} 
+table.tablesorter {
+	margin:10px 0pt 15px;
+	width: 100%;
+	text-align: left;
+}
+table.tablesorter thead tr th, table.tablesorter tfoot tr th {
+	background-color: #e6EEEE;
+	background-color: #333;
+	padding: 10px;
+	color:#FFFFFF;
+}
+table.tablesorter thead tr .header {
+	background-image: url(bg.gif);
+	background-repeat: no-repeat;
+	background-position: center right;
+	cursor: pointer;
+}
+table.tablesorter tbody td {
+	color: #3D3D3D;
+	padding: 10px;
+	background-color: #FFF;
+	vertical-align: top;
+}
+table.tablesorter tbody tr.odd td {
+	background-color:#F0F0F6;
+}
+table.tablesorter thead tr .headerSortUp {
+	background-image: url(asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+	background-image: url(desc.gif);
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+background-color: #8dbdd8;
+}

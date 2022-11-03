@@ -1,0 +1,139 @@
+
+#content{
+
+	margin-top: 30px;
+}
+#top img{
+	width: 50px;
+	margin-top: -60px;
+}
+#top{
+	width: 50px;
+	margin: 0 auto;
+	float:none;
+}
+
+#menu li a{
+
+	height: 15px;
+
+}
+
+#menu{
+	width:100%;
+	height: 25px;
+	float:left;
+	height:20px;
+	padding:5px 0px;
+}
+#select{
+	width:100px;
+	margin-top:-28px;
+	float: right;
+	padding:2px;
+
+}
+
+
+#tmonth{
+	padding: 5px;
+	margin-top: 20px;
+	border: 1px solid #DDD;
+	background-color: #e5e5e5;
+	border-radius: 3px;
+}
+.hbar{
+	background-color: #FF9900;
+	border-radius: 3px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+#month{
+	width: 100%;
+	height: 280px;
+	margin-top: 30px;
+	overflow: scroll;
+	overflow-y:hidden;
+}
+#week-wrapper{
+	width: 700px;
+	height: 240px;
+}
+#week{
+	margin-top: 30px;
+	width: 100%;
+	height: 280px;
+	overflow: scroll;
+}
+
+.clear{
+	clear:both;
+}
+#target{
+	padding-bottom: 30px;
+}
+#target .bar-content{
+	 margin: 0px 1%; 
+	 text-align: center;
+	 float:left; 
+	 font-size: 14px;
+	 width:48%;	
+	
+}
+#target .bar{
+	padding: 10px;
+}
+.target{
+	display: none;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #ffd076;
+	width: 250px;
+}
+.targetw{	
+	float: right;
+	display: none;
+	padding: 5px;
+	border-radius: 3px;
+	border:1px solid #e7e7e7;
+	background-color: #ffd076;
+	width: 20%;
+}
+.target input-text{
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 3px;
+	border:1px solid #CCC;
+	outline: 0px;
+	
+}
+.bar{
+	 text-align: center;
+	 padding: 3px;
+	 font-size: 12px;
+	 background-color:#e5e5e5;
+	 border-radius: 5px 5px 0px 0px;
+}
+
+
+
+.block{	
+	width: 94%;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+.r{	
+	width: 100%;
+	padding: 3% 0%;
+	float: left;
+	background-color: none;
+}
+.l{	
+	float: left;
+	padding: 3%;
+	background-color: #f1f1f1;
+}
+
+

@@ -1,0 +1,248 @@
+<!doctype html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+
+	If you are here I suppose that is because you want to know what's behind this web
+	
+	I am going to save you time
+	
+	HMTL like always.
+	CSS to make it beautiful 
+	CSS3 for some animations.
+	Javascript to make it work.
+	jQuery because we like it.
+
+-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<html class="no-js" lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	
+	<title>Gomu Gomu</title>
+	
+	<!-- Some metas -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="description" content="Funny and Awesome stuff to develop and grow business">
+	<meta name="keywords" content="SuperDry, Valencia, SuperDry Valencia, Spain, España, Gomu Gomu, Gomu, Sorni 7, Sorni, Store, Richard, Morla, Fernando, Salom">
+	<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+	<link rel="image_src" href="http://www.gomugomu.es/images/gomugomu-completo.png" />
+	<!-- Google maps API -->
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?key=AIzaSyB5SpbadEOsU54oIeUf2wP2ITwZ3Q9YaBs&sensor=false">
+	</script>
+	
+
+	
+	
+	<!-- Google analytics -->
+	<script type="text/javascript">
+	  var _gaq = _gaq || [];
+	  _gaq.push(['_setAccount', 'UA-29360869-1']);
+	  _gaq.push(['_trackPageview']);
+
+	  (function() {
+	    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+	    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+	    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	  })();
+	</script>
+    
+    <!-- Google maps (feel free to copy it) -->
+    <script type="text/javascript">
+      function initialize() {		
+		var myLatlng = new google.maps.LatLng(39.470335,-0.368854);
+		var myOptions = {
+		zoom: 16,
+		scrollwheel: false,
+  		center: myLatlng,
+  		mapTypeId: google.maps.MapTypeId.ROADMAP,
+		}
+		var map = new google.maps.Map(document.getElementById("map_canvas"), myOptions);
+	
+	  var image = 'images/marker.png';
+	  var myLatLng = new google.maps.LatLng(39.470335,-0.368854);
+	  var beachMarker = new google.maps.Marker({
+	      position: myLatLng,
+	      map: map,
+	      icon: image
+	  });
+	}
+    </script>
+
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.js'></script>	
+	<script type="text/javascript" src="js/pagescroller.min.js"></script>
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+		
+		// instantiate page scroller plugin		
+		$('#main').pageScroller({ sectionClass: 'section' });
+			
+		
+		// assigns "next" API function to button
+		
+		$('.next').click(function(e){
+			e.preventDefault();
+			pageScroller.next();
+		});
+		
+		//assigns "prev" API function to button	
+			
+		$('.prev').click(function(e){
+			e.preventDefault();
+			pageScroller.prev();
+		});
+					
+	});
+	
+</script>
+
+	 <!-- Some fonts from Google Fonts -->
+	<link href='http://fonts.googleapis.com/css?family=Lobster' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700,300|Open+Sans' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Oxygen' rel='stylesheet' type='text/css'>
+	 <!-- Some CSS -->
+	<link rel="stylesheet" href="../js/jquery.ui.all.css">
+	<link rel="stylesheet" href="../css/reset.css">
+	<link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body  onload="initialize()">
+	<!-- For old browsers -->
+	<NOSCRIPT>
+	Tienes un navegador antiguo con el que no vas a poder disfrutar de la web correctamente.<br/>
+	
+	Te sugerimos que cambies de navegador, el <a href="https://www.google.com/chrome" target="_blank">Google Chrome</a> a nosotros nos encanta y dejarás de perderte muchas cosas!<br />
+	</NOSCRIPT>
+			
+<!-- Let's start -->
+<div id="wrapper">
+		<!-- Navegation On-->
+
+<div id="main">
+
+	
+	<!-- Screen #1 / Intro -->
+	<div class="section">
+	<div id="screen1">    	
+		<div class="gomugomulogo">
+			<div class="container">
+				<div class="content">
+        			<div class="ball-arc">
+        				<div class="point"><img src="../images/gomu.png" alt="Gomu Gomu"></div>
+        			</div>
+        	
+        			<div class="ball-arcOpp">
+        				<div class="point2"></div>
+        			</div>	
+    			</div>
+    			
+    						</div>		
+		</div>	
+	<div id="error">No encuentro esa página… Lo siento…  pero puedes visitar nuestra <a href="../">web!</a></div>
+
+	</div>	
+	
+	</div>	
+		
+
+	</div>
+
+</div>
+<!-- // End of #main -->
+  
+  
+<!-- Time to see Jquery in action -->
+
+
+<script src="js/jquery.scrollTo.js"></script>
+<script src="js/jquery.nav.min.js"></script>
+<!-- First some navegation -->	
+<script type="text/javascript">
+$(document).ready(function() {
+  $('#nav').onePageNav();
+});
+
+$(function() {
+    $('.start').click(function() {
+        var pos = $('#screen2').offset().top;
+        $('html, body').animate({'scrollTop' : pos}, 1000);
+            return false;
+    });
+});  
+</script>
+
+<!-- Second time to identify iphone/ipod -->
+<script src="js/jquery.ui.core.js"></script>
+<script src="js//jquery.ui.widget.js"></script>
+<script src="js/jquery.ui.position.js"></script>
+<script src="js/jquery.ui.tooltip.js"></script>
+
+<script type="text/javascript">
+if((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
+$(".info-fernando").fadeIn("slow");
+$(".info-richard").fadeIn("slow");
+
+}else{
+	$('.fernando').mouseenter(function() {
+  		$(".info-fernando").fadeIn("slow");
+	});
+	$('.fernando').mouseleave(function() {
+  		$(".info-fernando").fadeOut("slow");
+	});
+	$('.richard').mouseenter(function() {
+  		$(".info-richard").fadeIn("slow");
+	});
+	$('.richard').mouseleave(function() {
+  		$(".info-richard").fadeOut("slow");
+	});
+}
+
+$(function() {
+	$( "#nav" ).tooltip();
+});
+</script>
+</body>
+</html>

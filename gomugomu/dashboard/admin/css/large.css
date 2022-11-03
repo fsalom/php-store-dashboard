@@ -1,0 +1,112 @@
+
+#content{
+
+	margin-top: 60px;
+}
+#top img{
+	width: 100px;
+	margin-top: -60px;
+}
+#top{
+	width: 100px;
+	float: left;
+}
+
+
+#menu{
+	float: right;
+}
+#select{
+
+	width: 134px;
+
+	margin-top: -10px;
+}
+.target{
+	display: none;
+	padding: 5px;
+	border-radius: 3px;
+	background-color: #ffd076;
+	width: 250px;
+}
+.targetw{	
+	float: right;
+	display: none;
+	padding: 5px;
+	border-radius: 3px;
+	border:1px solid #e7e7e7;
+	background-color: #ffd076;
+	width: 20%;
+}
+.target input-text{
+	border-radius: 3px;
+	font-size: 12px;
+	padding: 3px;
+	border:1px solid #CCC;
+	outline: 0px;
+	
+}
+
+#month{
+	width: 100%;
+	height: 290px;
+	margin-top: 30px;
+	overflow: scroll;
+	overflow-y:hidden;
+}
+#week{
+	margin-bottom: 40px;
+}
+.clear{
+	clear:both;
+}
+#target{
+	padding: 10px;
+	float: right;
+}
+.bar{
+	 text-align: center;
+	 padding: 10px;
+	 font-size: 12px;
+	 background-color:#e5e5e5;
+	 border-radius: 3px 3px 0px 0px;
+}
+
+
+#tmonth{
+	padding: 5px;
+	margin-top: 20px;
+	border: 1px solid #DDD;
+	background-color: #e5e5e5;
+	border-radius: 3px;
+}
+.hbar{
+	background-color: #FF9900;
+	border-radius: 3px;
+	padding: 10px 0;
+	font-weight: bold;
+	text-align: center;
+}
+
+.block{	
+	width: 48%;
+	
+	
+	border-radius: 5px;
+}
+.r{	
+	
+	padding: 0px 1%;
+	float: left;
+	background-color: none;
+}
+.l{	
+	float: left;
+	padding: 1%;
+	background-color: #f1f1f1;
+}
+
+
+.left{
+	float:left;
+}

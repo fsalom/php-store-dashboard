@@ -1,0 +1,26 @@
+case 'client':
+if(!$_GET['do']){
+	client_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			client_new();
+		break;
+		case'update':
+			client_update();
+		break;
+		case'check':
+			client_check();
+		break;
+		case'delete':
+			client_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			client_edit($_GET['email'],$_GET['id']);
+		break;
+		case'validate':
+			client_validate($_GET['id']);
+		break;
+	}
+}
+break;

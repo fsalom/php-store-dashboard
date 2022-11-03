@@ -1,0 +1,4 @@
+<img src="modules/home/img/entrada.jpg">
+<p>
+En 2005 cuando toma la decisión de cambiar su ubicación y su trayectoria en el mundo de la ganadería, pasando a comprar una finca en el interior de Requena y proyectando lo que hoy ya es una realidad, la primera explotación ganadera sostenible. Desde unas instalaciones para los animales de ultima generación para el bienestar animal, control y robotización individual de los mismos y trazabilidad de los alimentos que consumen, pasando por la primera planta de biometanización en España, donde transformamos todos los abonos que producimos en Energía Eléctrica y Térmica y cerrando el ciclo con una escuela de formación y desarrollo de visitas para la propia finca.
+</p>

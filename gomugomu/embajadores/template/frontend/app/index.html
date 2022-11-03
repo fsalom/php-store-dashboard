@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+   "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Administrador</title>
+<link href="{url}style.css" rel="stylesheet" type="text/css" />
+<link href="{url}graph.css" rel="stylesheet" type="text/css" />
+
+<link href="core/js/3D/CSS/style_common.css" rel="stylesheet" type="text/css" />
+<link href="core/js/3D/CSS/style1.css" rel="stylesheet" type="text/css" />
+
+{css}
+<script type="text/javascript" src="core/js/3D/modernizr.custom.69142.js"></script> 
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.form').hide();
+		$('#premio').hide();
+		$('#tarjetas').hide();
+		$('#profile-prize').hide();
+		$('.profile-budget-img-info').hide();
+		
+		$('#seleccion').on('change', function() {
+				if(this.value =='1' ){
+					$('#propuesta').show();
+					$('#premio').hide();
+					$('#tarjetas').hide();
+				}else if(this.value =='2'){
+					$('#premio').show();
+					$('#tarjetas').hide();
+					$('#propuesta').hide();
+				}else if(this.value =='3'){
+					$('#tarjetas').show();
+					$('#premio').hide();
+					$('#propuesta').hide();
+				} // or $(this).val()
+		});
+		$('#send').click(function() {
+			$('#profile-prize').slideToggle('slow', function() {});
+		});
+		$('.profile-budget-img').mouseover(function() {
+			$(this).find('.profile-budget-img-info').fadeIn();
+		});
+		$('.profile-budget-img').mouseout(function() {
+			$(this).find('.profile-budget-img-info').fadeOut();
+		});
+		$('#item').click(function() {
+			$('.form').slideToggle('slow', function() {});
+		});
+		    //Select all anchor tag with rel set to tooltip
+	    $('#submit').click(function() {
+		   	$('#formsubmit').submit();
+		});
+		 $('#sendPremiar').click(function() {
+		   	$('#premiar').submit();
+		});
+		$('#edit').click(function() {
+		   	$('#formedit').submit();
+		});
+		
+
+
+	});
+	
+</script>
+</head>
+
+<body>
+<center><img src="{url}img/superdry-logo.gif" width="300px"></center>
+<div id="main">
+	{content}
+</div>
+
+
+<script type="text/javascript">	
+			
+			Modernizr.load({
+				test: Modernizr.csstransforms3d && Modernizr.csstransitions,
+				yep : ['http://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js','core/js/3D/jquery.hoverfold.js'],
+				nope: 'core/js/3D/CSS/fallback.css',
+				callback : function( url, result, key ) {
+						
+					if( url === 'core/js/3D/jquery.hoverfold.js' ) {
+						$( '#grid' ).hoverfold();
+					}
+
+				}
+			});
+				
+		</script>
+</body>
+</html>

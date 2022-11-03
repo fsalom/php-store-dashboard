@@ -1,0 +1,26 @@
+case 'app':
+if(!$_GET['do']){
+	app_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			app_new();
+		break;
+		case'update':
+			app_update();
+		break;
+		case'check':
+			app_check();
+		break;
+		case'delete':
+			app_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			app_edit($_GET['email'],$_GET['id']);
+		break;
+		case'validate':
+			app_validate($_GET['id']);
+		break;
+	}
+}
+break;

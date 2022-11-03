@@ -1,0 +1,13 @@
+<?php
+$AModules=array(
+	"modules/news",
+	"modules/login",
+	"modules/category",
+	"modules/descargas",
+	"modules/user",
+	"modules/files",
+	"modules/private",
+	"modules/calendar",
+	"modules/home"
+);
+?>

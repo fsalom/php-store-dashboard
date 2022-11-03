@@ -1,0 +1,382 @@
+html, body{
+	color:#000;
+	font-family:Tahoma,Geneva,Arial,sans-serif;
+	font-size:12px;
+	margin:0 auto;
+	background-color:#FF9900;
+}
+a:hover{
+	text-decoration:none;
+	cursor:pointer;
+}
+#content-NEW{
+	width: 680px;
+	margin:  0 auto;
+	margin-top: 10px;
+	background-color: #FFF;
+	padding: 10px;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+#content-NEW input,  #content-NEW textarea{
+	padding:2%;	
+	width:96%;
+	background-color:#e5e5e5;
+	line-height: normal;
+}
+#content-NEW select{
+	height:40px;
+	background-color:#e5e5e5;
+}
+		
+#main-search{
+	text-align:right;				
+}		
+#main-search input{
+	line-height: 0px;
+	margin-bottom: 0px;
+	margin-top: 5px;	
+}
+.the-return{
+	width:96%;	
+	margin:0 auto;
+	padding: 2%;
+}
+.alert-box {
+	width:96%;
+	color:#555;
+	border-radius:5px;		
+	padding:2%;		
+	float:left;		
+	margin-bottom: 10px;
+}
+.alert-box span {
+	font-weight:bold;
+	text-transform:uppercase;
+}
+.error	 {background:#ffecec /*url('../img/notification/error.png') no-repeat 2% 96%;*/}
+.success {background:#e9ffd9 /*url('../img/notification/success.png') no-repeat 2% 96%;*/}
+.warning {background:#fff8c4 url('../img/notification/warning.png') no-repeat 2% 96%;}
+.notice  {background:#e3f7fc url('../img/notification/notice.png') no-repeat 2% 96%;}
+	
+/*************************************************************
+	BUSQUEDA DE USUARIOS
+*************************************************************/
+#livesearch{
+   	margin-top:-20px;
+   	position:absolute;    	   
+   	width:300px;
+   	right:5%;
+}
+.list_clients{
+  	padding:5px;
+   	background-color:#666;
+   	border:1px solid #e5e5e5;
+   	display:block;
+   	color:#e5e5e5;
+   	text-decoration:none;
+} 
+.list_clients:hover{
+  	background-color:#000;
+   	color:#FFF;
+}
+.list_clients h3{
+  	font-size:10px;
+   	margin:0px;
+   	padding:0px;
+   	font-weight: none;    	
+}
+.list_clients .img{
+
+} 
+.img img{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    float: left;
+    margin-right:10px;
+}
+
+/*************************************************************
+	NUEVO USUARIO
+*************************************************************/
+#NEW{
+  	display:none;
+}
+
+#CERRAR{
+   	font-size:20px;
+   	font-weight:bold;
+   	background-color:#000;
+   	color:#FFF;
+   	display:block;
+   	padding:5px;
+   	border-radius:20px;
+   	text-decoration:none;
+   	position:relative;
+   	top:-30px;
+   	width:30px;
+   	text-align:center;
+   	right:-660px;
+}
+/*************************************************************
+	ESTRUCTURA DE LA WEB
+*************************************************************/
+#main{
+  	background-color:#FFF;
+   	width:90%;
+   	border-radius:5px;
+   	margin: 10px auto;
+   	padding:3%;
+}
+#main-menu{
+   	background-color:#e5e5e5;
+   	border-radius:5px;
+   	padding: 0 5px;
+}    
+#main-menu ul{
+  	list-style:none;
+   	margin:0px;
+   	padding:0px;
+}
+#main-menu li a{
+  	display:block;
+  	float:left;
+   	padding:10px;
+   	color:#666;
+   	text-decoration:none;
+   	background-color:#DDD;
+}
+#main-menu li a:hover{
+  	background-color:#f1f1f1;
+}
+#main-content{
+   	padding-top:60px;
+   	padding-bottom:100px;
+}
+#main-content h1{
+   	font-weight:normal;
+   	padding:0px;
+   	margin:0px;
+   	padding-bottom:20px;
+}
+
+#main-content h2{
+	font-size: 16px;
+	padding:0px;
+   	margin:0px;
+   	padding-bottom:20px;
+}
+.clear{
+  	clear:both;
+}
+
+/*************************************************************
+	TABLA LISTADO DE CLIENTES
+*************************************************************/
+.tablaListado{
+  	padding:5px;
+   	width:100%;
+   	background-color:#fafafa;
+   	margin-top:10px;
+   	border:0px;
+   	border-collapse: collapse;
+}
+.tablaListado th{
+   	text-align:left;
+   	background-color:#e5e5e5;
+   	padding:10px;
+   	margin:0px;
+}
+.tablaListado tr{
+  	border-bottom:1px solid #e5e5e5;
+}
+.tablaListado td{
+  	padding:10px;
+   	margin:0px;
+}
+/*************************************************************
+	TABLA CON DIVS
+*************************************************************/
+.table-content{   	
+   	border-radius:5px;
+   	padding:10px;
+}
+.table-row{
+   	padding:5px;
+}
+.table-col{
+ 	float:left;
+}
+.r5{background-radius:5px;}
+.grey{background-color:#e5e5e5;}
+.lightgrey{background-color:#f1f1f1;}
+.lightorange{background-color:#FFD076;}
+.s100{width:98%;margin-left:1%;margin-right:1%;}
+.s80{width:78%;margin-left:1%;margin-right:1%;}
+.s75{width:73%;margin-left:1%;margin-right:1%;}
+.s50{width:48%;margin-left:1%;margin-right:1%;}
+.s25{width:23%;margin-left:1%;margin-right:1%;}
+.s20{width:18%;margin-left:1%;margin-right:1%;}
+/*************************************************************
+	ESTILOS COMPLEMENTARIOS PARA TABLA (dataTable)
+*************************************************************/
+.paginate_button{
+	display:block;
+	padding:5px;
+	margin: 5px 0;
+	float:left;
+}
+.hover { background-color: #eee; }
+/*************************************************************
+	ESTILO PARA SUBIR IMAGEN
+*************************************************************/
+.fileinput-button {position: relative;overflow: hidden;}
+.fileinput-button input {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin: 0;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  transform: translate(-300px, 0) scale(4);
+  font-size: 23px;
+  direction: ltr;
+  cursor: pointer;
+}
+.fileupload-buttonbar .btn,
+.fileupload-buttonbar .toggle {
+  margin-bottom: 5px;
+}
+#progress{
+	margin-top:10px;
+}
+.progress-animated .bar {
+  background: url(../img/progressbar.gif) !important;
+  filter: none;
+}
+.fileupload-loading {
+  float: right;
+  width: 32px;
+  height: 32px;
+  background: url(../img/loading.gif) center no-repeat;
+  background-size: contain;
+  display: none;
+}
+.fileupload-processing .fileupload-loading {
+  display: block;
+}
+
+@media (max-width: 767px) {
+  .fileupload-buttonbar .toggle,
+  .files .toggle,
+  .files .btn span {
+    display: none;
+  }
+  .files .name {    
+    word-wrap: break-word;
+  }
+  .files{
+  	margin:0px;
+  	padding:0px;
+  }
+}
+
+/*************************************************************
+	iteM
+*************************************************************/
+h3{
+	font-size: 11px;
+	padding: 0px;
+	margin: 0px;
+	text-align: right;
+	line-height: 2em;
+}
+h4{
+	font-size: 9px;
+	padding: 0px;
+	margin: 0px;	
+	text-align: right;
+	line-height: 2em;
+}
+.item{
+	background-color: #d5d5d5;
+	padding: 5px;
+	margin-bottom: 5px;
+	border-radius:5px;
+	
+}
+.item_detail{	
+	font-size: 12px;
+	display: none;
+	padding-top: 10px;
+	padding: 10px;
+	margin-top: 10px;
+	border: 1px dotted #FF9900;
+}
+.item_price{
+	text-align: right;
+	padding:5px;		
+	font-weight: bold;
+	float: right;
+	border-radius: 5px;
+	margin: 3px;	
+	
+}
+
+.item_total{
+	float: right;	
+}
+.paid{
+	font-weight:bold;
+	float: right;
+}
+
+.table-row input[type="text"], input[type="email"],input[type="number"]{
+	float: left;
+	width: 90%;	
+	font-family:Tahoma,Geneva,Arial,sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	border:0px;
+	box-shadow:none;
+	color: #000;
+	line-height: 0px;
+	
+}
+.table-row textarea{
+	float: left;
+	width: 90%;	
+	font-family:Tahoma,Geneva,Arial,sans-serif;
+	font-size:12px;
+	font-weight: bold;
+	border:0px;
+	
+	padding: 2%;
+	box-shadow:none;
+	color: #000;
+}
+/********************/
+#perfilImagen img{
+    background-repeat: no-repeat;
+    background-position: 50%;
+    border-radius: 50%;
+    width: 100%;
+    height: 100%;
+}
+#guardarImagen{
+	border-radius: 5px;
+	padding: 10px;
+	background-color: #f1f1f1;
+}
+form{
+	margin-bottom: 0px;
+}
+
+/*****************************/
+#profile input[type="text"], #profile textarea{
+	background-color: #e5e5e5;
+}

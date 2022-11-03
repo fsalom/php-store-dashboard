@@ -1,0 +1,122 @@
+html{
+	color:#000;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-family: 'Open Sans Condensed', Verdana;	
+	font-weight: 400;
+	font-size: 15px;	
+	background-color:#000;
+}
+#envoltorio{
+	margin:0 auto;
+	text-align:center;
+}
+#contenido{
+	width: 300px;
+	margin:0 auto;
+	background-color:#FFFFFF;	
+	padding:5px;
+	padding-top:3px;
+	border-radius: 5px;	
+	
+	position: relative;
+	display: block;
+    text-align: left;
+}
+#info{
+	
+}
+
+
+
+
+
+
+/* CSS reset */
+
+ol,ul,li {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/* General Demo Style */
+
+.ie7 body{
+	overflow:hidden;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.container{
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	
+	margin: 0;	
+    text-align: left;   
+}
+
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: 5px;
+	background-color:#FFE7CA;
+	border-radius:3px;
+	color:#FF9900;
+	font-weight:bold;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	outline:none;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 20px;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 20px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 2px 20px;
+	border-top: 0;
+	overflow: auto;
+	overflow: hidden;
+	background-color: #FFE7CA;
+}
+
+*:focus {
+    outline: 0;
+}

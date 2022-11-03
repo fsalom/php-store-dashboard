@@ -1,0 +1,65 @@
+<script src="core/js/jquery/jquery.js" type="text/javascript"></script>
+<script type="text/javascript" src="core/js/curvicorners/jquery.curvycorners.min.js"></script>
+<script type="text/javascript" src="core/js/cookies/jquery.cookie.min.js"></script>
+
+
+<script type="text/javascript">
+<!--
+$("div").click(function() { 
+  $(this).animate({height: "200px"}, 2000); 
+  return false;
+});
+
+
+    $(document).ready(function () {
+        var validate = $('#new-comment-comment');
+        var author;
+        var email;
+		var comment;
+		var web;
+		
+		
+        $('#sendcomment').click(function () {
+           email = $("#email").attr("value"); 
+           comment = $("#comment").attr("value"); 
+           web = $("#web").attr("value"); 
+           author = $("#author").attr("value");
+            
+                if (this.timer) clearTimeout(this.timer);
+                $('#sendcomment').attr("disabled", true); 
+				$('#comment').attr("disabled", true); 
+                validate.removeClass('error').html(' <center><img src="modules/user/admin/img/loading.gif" align="top"/></center>');
+                
+                this.timer = setTimeout(function () {
+                    $.ajax({
+                        url: 'modules/news/ajax.php',
+                        data: 'do=check&username='+ author + '&web=' + web + '&comment=' + comment + '&email=' + email + '&id={id}',
+                        dataType: 'json',
+                        type: 'post',
+                        success: function (j) {
+                        	if(j.ok==true){
+                            	validate.html("");
+                            	$('#sendcomment').attr("disabled", false); 
+                            	$('#comment').attr("disabled", false); 
+                            	$("#new-add").before(j.msg);
+                            	$('#comment').val(""); 
+                            	$.cookie('usName', author ,{ path: '/', expires: 10 });
+                            	$.cookie('usMail', email, { path: '/', expires: 10 });
+                            	$.cookie('usWeb', web , { path: '/', expires: 10 });
+                        	}else{
+                        		validate.html(j.msg);
+                        		$('#comment').attr("disabled", false); 
+                        		$('#sendcomment').attr("disabled", false); 
+                        	}    
+                        	
+							
+ 
+							
+                        }
+                    });
+                }, 200);
+        });
+        
+    });
+    //-->
+    </script>

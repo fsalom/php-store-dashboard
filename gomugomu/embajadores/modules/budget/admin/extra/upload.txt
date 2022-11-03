@@ -1,0 +1,23 @@
+<script type="text/javascript">
+	function validatefile(){
+		var myform=document.uploadform;   //reference to form 
+		var file_field_value=myform.filefield.value; //access form value with dom model
+		var error="";
+			if(file_field_value==''){
+				error+="Please Select A file.\n";
+			}
+		var allowed_extensions=/(jpg|jpeg|bmp|giff|doc|docx|pdf)$/; //check for allowed extension it is simple regular expression
+ 
+			if(!file_field_value.match(allowed_extensions)){
+				error+="Please select only jpeg or jpg or bmp or giff or doc or pdf .";
+			}
+ 
+			if(error!=''){  //check for any errors
+				alert(error);   //if error alert error
+				return false;   //return to form don't submit to action page
+			}
+ 
+	return true;   // every thing going fine return true allow form to submit the data.
+	}
+ 
+	</script>

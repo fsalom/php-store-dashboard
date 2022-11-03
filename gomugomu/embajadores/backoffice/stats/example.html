@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>jQuery Stats Graph Plugin</title>
+            <link type="text/css" rel="stylesheet" href="jquery.statsgraph.css" />
+            <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+            <script type="text/javascript" src="jquery.statsgraph.js"></script>
+            <script type="text/javascript">
+                $(function() {
+                    $("#the-graph").stats({
+                        data: [5, 6, 8, 5, 1, 4, 4, 3, 6, 8, 1, 9, 5, 1, 4, 5, 3, 6, 2, 1, 5, 6, 7, 5, 2, 4, 6]
+                    });
+                });
+            </script>
+        </head>
+        <body>
+            <div id="the-graph" class="stats-graph"></div>
+        </body>
+    </html>

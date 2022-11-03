@@ -1,0 +1,408 @@
+
+
+/*-------------------------------------------
+img{ behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc); }
+*/
+
+Body {
+	font-family: Georgia, Arial, Helvetica;
+	font-size: 12px;
+	margin:0px;
+	padding:0px;
+	background-image:url(img/bgw.jpg);
+	background-color:#ae0000;
+	text-align: center; /* for IE */
+}
+#top{
+	height:80px;
+	font-size: 10px;
+}
+#top-menu{
+	width:520px;
+	float: left;
+}
+#top-menu ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:0px;
+}
+#top-menu li {
+	margin:0px;
+	padding:0px 2px; 
+	float:left;
+	text-align:center;
+}
+#top-menu li a {
+	display:block; 
+	width:100px;
+	padding: 70px 0px 10px 0px;	
+	height: 20px;
+	text-decoration:none;
+	font-weight: bold;
+	color:#DDD;	
+}
+
+#top-menu li a:hover {
+	color:#FFF;
+	background-image: url(http://www.hospitalaris.com/template/hospitalaris/img/bgm.png) !important;
+	background-image: none; 
+	filter: none !important;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='http://www.hospitalaris.com/template/hospitalaris/img/bgm.png',sizingMethod='crop');
+	background-repeat:no-repeat;
+}
+#login{
+	width: 900px;
+	height: 300px;
+	margin: 0 auto;
+	background-image: url(img/login.png);
+	background-repeat:no-repeat;
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+}
+#top-title{
+	width:450px;
+	height:100px;
+	margin:0 auto;	
+	float: left;
+	background-image: url(img/hospitalaris.png);
+	background-repeat:no-repeat;
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+}
+#subtop{
+	height:10px;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	background-image:url(img/bgsubtop.gif);
+	background-repeat: repeat-x;
+}
+#main{
+	
+}
+#container{
+	width:980px;
+	margin:0 auto;
+	text-align:justify;
+}
+#content-top{
+	width:980px;
+	height:50px;
+	margin:0 auto;
+	padding: 0px;
+	background-image: url(img/content_top.png);
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+	background-repeat:no-repeat;
+}
+#content-down{
+	width:980px;
+	height:50px;
+	background-image: url(img/content_down.png);
+	background-repeat:no-repeat;
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+}
+#content-main{
+	width: 980px;
+	background-image: url(img/content.gif) ;
+	background-repeat: repeat-y;
+}
+#content-user-info{
+	width: 860px;
+	margin: 0 auto;
+	height: 20px;
+	padding-top: 25px;
+	padding-right: 60px;
+	text-align: right;
+	font-size: 12px;  
+     letter-spacing: 3px;  
+     font-variant: small-caps;  
+     font-weight: normal;
+	 text-align:right;  
+}
+#content-user-info a{
+	color:#990000;
+	font-style: italic;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 3px 5px;
+}
+#content-user-info a:hover{
+	color:#AA0000;
+	background-color: #990000;
+	color: #FFF;
+}
+#content-intro{
+	padding: 15px;
+	border: 1px dashed #b9621f;
+	margin-bottom: 15px;
+	background-image: url(img/intro.png);
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+	background-repeat:no-repeat;
+}
+#content-intro a{
+	color: #990000;
+	text-decoration: none;
+}
+#content-intro a:hover{
+	color: #990000;
+	text-decoration: underline;
+}
+.big{
+	font-size: 30px;
+	font-weight: bold;
+	float: left;
+	margin-right: 10px;
+	
+}
+#content-left{
+	width:520px;
+	float:left;
+}
+
+#content-left a{
+	color: #990000;
+	text-decoration: none;
+}
+#content-left a:hover{
+	color: #666;
+	border-bottom: 1px dashed #666;
+}
+
+#content-right{
+	width:340px;
+	margin-left:40px;
+	text-align:right;
+	float: left;
+}
+#content{
+	padding: 20px 40px;
+	text-align:justify;
+}
+
+h1{
+	font-family:Georgia, "Times New Roman", Times, serif;
+   	 font-size: 18px;  
+	 padding-bottom:0px;
+	 margin-bottom:0px; 
+     font-weight: normal;
+	 font-style:italic;  
+}
+h2{
+	font-family:Georgia, "Times New Roman", Times, serif;
+   	 font-size: 14px;  
+   	 color: #990000;
+	 padding-bottom:0px;
+	 margin-bottom:0px; 
+     font-weight: normal;
+	 font-style:italic;  
+}
+h1 a{
+	color: #000;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: #666;
+}
+h3{
+   	 font-size: 11px;  
+	 margin-bottom:10px;
+     font-variant: small-caps;  
+     font-weight: normal; 
+}
+.line{
+	width:300px;
+	margin:30px auto;
+	border-bottom:1px solid #e5e5e5;	
+}
+.subtext{
+	font-size: 10px;
+	color: #333;
+}
+.clear{
+	clear:both;
+}
+.login-main{
+	float: left;
+	width: 190px;
+	margin-bottom: 20px;
+	padding: 0 5px;
+}
+.form{
+	width: 500px;
+	padding: 10px;
+	height: 30px;
+	font-style: italic;
+	background-color: #e6dbc7;
+	border: 1px solid #b59d73;
+	font-size: 18px;	
+}
+.login-button{
+	width: 50px;
+	float: right;
+}
+.gimg{
+	
+	background-color: #FFF;
+	border: 6px solid #FFF;
+}
+/**************************************************
+*
+*
+*		LOGIN
+*
+*
+**************************************************/
+#template-login{
+	background-color: #FFF;
+	margin-bottom: 50px;
+}
+.login-data{
+	width: 150px;
+	margin: 10px 0px;
+	float: left;
+}
+.login-form{
+	float: left;
+	width: 140px;
+	margin: 10px 8px;
+	border: 1px solid #9D3d06;
+	background-color: #7c2c06;
+	padding: 3px;
+	height: 20px;
+}
+.login-subtext{
+	font-family:"Trebuchet MS" , Arial;
+	font-size: 10px;
+	letter-spacing: 0px;
+}
+.login-button{
+	width: 340px;
+	padding: 4px;
+	background-color: #e5e5e5;
+	color: #000;
+	border: 1px solid #DDD;
+}
+/**************************************************
+*
+*
+*		COMENTARIOS + AÑADIR COMENTARIOS
+*
+*
+**************************************************/
+#content-left{
+	width:520px;
+	float:left;
+	line-height: 1.5em;
+}
+
+.space{
+	height: 30px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 50px;
+}
+
+.new-content img{
+	border: 1px solid #BBB;
+	padding: 4px;
+	background-color: #e5e5e5;
+}
+
+h1 a{
+	color: #333;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: #666;
+}
+.new-comment-textarea{
+	width: 60%;
+	float: left;
+}
+
+.new-comment-textarea textarea{
+	border: 1px solid #666;
+	padding: 5px;
+	width: 90%;
+	color:#666;
+	font-family: "Trebuchet MS" , Arial , Helvetica;
+	font-size: 14px;
+	height: 150px;
+}
+
+.new-comment-fields input:focus {  
+     border-color: #AAA;  
+     background-color: #eee;  
+}  
+
+.new-comment-fields textarea:focus {  
+     border-color: #AAA;  
+     background-color: #eee;  
+}
+
+.new-comment-fields input{
+	border: 1px solid #666;
+	color:#666;
+	width: 100%;
+	padding: 5px;
+}
+
+.new-comment-fields{
+	width: 35%;
+	float: left;
+	text-align: left;
+}
+
+.news-required{
+	color: #AA0000;
+}
+.c-complete{
+	margin: 10px 0 ;
+}
+.c-img{
+	padding: 3px;
+	background-color: #CCC;
+	float: left;
+}
+.c-text{
+	background-color: #f1f1f1;
+	padding: 10px;
+	margin-left: 46px;
+}
+.c-comment{
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.c-author{
+	font-family: Georgia , Geneva , Helvetica; 
+	float: left;
+}
+
+.c-author a{
+	color:#880000;
+	text-decoration: none;
+}
+
+.c-author a:hover{
+	color:#BB0000;
+	text-decoration: underline;
+}
+
+.c-date{
+	width: 150px;
+	font-family: Georgia , Geneva , Helvetica;
+	text-transform: uppercase;
+	text-align: right;
+	float: right;
+}
+
+.c-line{
+	width:300px;
+	margin:30px auto;
+	border-bottom:1px solid #e5e5e5;	
+}
+
+.c-quote{
+	font-family: Georgia , Geneva , Helvetica;
+	margin: 0px 10px ;
+	font-size: 30px;
+}	

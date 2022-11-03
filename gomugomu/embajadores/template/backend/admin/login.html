@@ -1,0 +1,29 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>login</title>
+<link href="{url}login.css" rel="stylesheet" type="text/css" />
+<script>
+function borrar(obj){
+obj.value="";
+}
+</script>
+</head>
+
+<body>
+<div id="main">
+	<form id="login" name="login" method="post" action="{action}">
+	<div id="login">
+    	<div id="login_left">
+    	  
+    	    <input name="login_username" type="text" class="formulario" value="Nombre de usuario" onclick="borrar(this);"/>
+            <input name="login_password" type="password" class="formulario" value="Contraseña" onclick="borrar(this);"/>
+    	  
+        </div>
+        <div id="login_right"><input type="image" src="{url}img/bton.png" width="57" height="169"></div>
+    </div>
+    </form>
+</div>
+</body>
+</html>

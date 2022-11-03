@@ -1,0 +1,84 @@
+<script src="../core/js/jquery/jquery.js" type="text/javascript"></script>
+<script>
+	var caracter="1234567890";
+	caracter+="QWERTYUIOPASDFGHJKLZXCVBNM";
+	caracter+="qwertyuioplkjhgfdsazxcvbnm";
+	var numero_caracteres=8;
+
+	var total=caracter.length;
+	function azar(){
+	var clave="";
+	for(a=0;a<numero_caracteres;a++){
+	clave+=caracter.charAt(parseInt(total*Math.random(1)));
+	}
+	document.forms[0].password.value=clave;
+	document.forms[0].password2.value=clave;
+	}
+</script>
+<script type="text/javascript">
+<!--
+    $(document).ready(function () {
+        var validateUsername = $('#user-validateUsername');
+        $('#username').keyup(function () {
+            var t = this; 
+            
+            if (this.value != this.lastValue) {
+                                
+                if (this.timer) clearTimeout(this.timer);
+                
+                validateUsername.removeClass('error').html(' <img src="../modules/user/admin/img/loading.gif" align="top"/> comprobando disponibilidad...');
+                
+                this.timer = setTimeout(function () {
+                    $.ajax({
+                        url: 'checkclient.php',
+                        data: 'do=check&username=' + t.value,
+                        dataType: 'json',
+                        type: 'post',
+                        success: function (j) {
+                            validateUsername.html(j.msg);
+                            $("#usercheck").attr('value', j.ok);
+                        }
+                    });
+                }, 200);
+
+                this.lastValue = this.value;
+            }
+        });
+        
+    });
+    //-->
+    </script>
+<script type="text/javascript">
+<!--
+    $(document).ready(function () {
+        var validateEmail = $('#user-validateEmail');
+       
+        $('#email').keyup(function () {
+            var t = this; 
+            
+            if (this.value != this.lastValue) {
+                                
+                if (this.timer) clearTimeout(this.timer);
+                
+                validateEmail.removeClass('error').html(' <img src="../modules/user/admin/img/loading.gif" align="top"/> comprobando...');
+                
+                this.timer = setTimeout(function () {
+                    $.ajax({
+                        url: 'checkMail.php',
+                        data: 'do=check&email=' + t.value,
+                        dataType: 'json',
+                        type: 'post',
+                        success: function (j) {
+                            validateEmail.html(j.msg);
+                     		$("#emailcheck").attr('value', j.ok);
+                        }
+                    });
+                }, 200);
+
+                this.lastValue = this.value;
+            }
+        });
+        
+    });
+    //-->
+    </script>

@@ -1,0 +1,26 @@
+case 'component':
+if(!$_GET['do']){
+	component_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			component_new();
+		break;
+		case'update':
+			component_update();
+		break;
+		case'check':
+			component_check();
+		break;
+		case'delete':
+			component_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			component_edit($_GET['id']);
+		break;
+		case'validate':
+			component_validate($_GET['id']);
+		break;
+	}
+}
+break;

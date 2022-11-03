@@ -1,0 +1,129 @@
+body {
+text-align:left;
+color:#666;
+font-size:12px;
+font-family:georgia, 'time new romans', serif;
+margin:0 auto;
+padding:0;
+background: url(img/bg.png) no-repeat center top;
+background-attachment: fixed;
+background-color:#000;
+}
+
+
+h1 {
+font-size: 34px;
+font-family: verdana, helvetica, arial, sans-serif;
+letter-spacing:-2px;
+color:#9FC54E;
+font-weight:700;
+padding:20px 0 0;
+}
+
+h2 {
+font-size: 24px;
+font-family: verdana, helvetica, arial, sans-serif;
+color:#444444;
+font-weight: 400;
+padding: 0 0 10px; 0
+}
+
+h3 {
+font-size:14px;
+font-family:verdana, helvetica, arial, sans-serif;
+letter-spacing:-1px;
+color:#fff;
+font-weight: 700;
+text-transform:uppercase;
+margin:0;
+padding:8px 0 8px 0;
+}
+
+img{
+
+}
+
+p {
+color:#cccccc;
+line-height:22px;
+padding: 0 0 10px;
+margin: 20px 0 20px 0;
+}
+
+#main{
+	width: 430px;
+	padding: 18px;
+	padding-left: 200px;
+	
+}
+
+#container {
+width: 960px;
+margin: 0 auto;
+padding: 0;
+
+}
+
+.content {
+width: 600px;
+font-style:normal;
+font-family:helvetica, arial, verdana, sans-serif;
+color:#ffffff;
+background:#333333;
+border:1px solid #444444;
+-moz-border-radius-topright: 20px;
+-webkit-border-top-right-radius: 20px;
+-moz-border-radius-bottomleft: 20px;
+-webkit-border-bottom-left-radius: 20px;
+margin: 0 auto;
+padding: 30px;
+}
+
+
+#login{
+	width:100%;
+	margin:0px auto 0 auto;
+	
+}
+
+#top{
+	background: url(img/top.png);
+	width: 660px;
+	margin: 0 auto;
+	height: 120px;
+	margin-top: 25%;
+	-moz-border-radius: 10px;
+-webkit-border-radius: 10px;
+	
+}
+
+form{
+	padding:0px;
+	margin:0px;
+}
+
+.formulario{
+	width:300px;
+	background-color:#FFF;
+	border:1px solid #FFF;
+	margin: 0 auto;
+	margin-bottom:15px;
+	padding:5px 10px;
+	font-family:Georgia, "Times New Roman", Times, serif;
+	font-size:15px;
+	font-style:italic;
+	color:#000;
+}
+
+.formularioBoton{
+	width:100px;
+	height: 74px;
+	float: right;
+	background-color:#333;
+	border:1px solid #333;
+	margin: 0 auto;
+	padding:5px 10px;
+	font-family:Verdana, "Times New Roman", Times, serif;
+	font-size:13px;
+	color:#FFF;
+}

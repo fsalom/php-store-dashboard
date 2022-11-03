@@ -1,0 +1,41 @@
+case 'budget':
+if(!$_GET['do']){
+	budget_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			budget_new();
+		break;
+		case'step2':
+			budget_step2($_GET['id']);
+		break;
+		case'ads':
+			budget_ads($_GET['id'],$_GET['id_budget']);
+		break;
+		case'send':
+			budget_send($_GET['id'],$_GET['id_budget']);
+		break;
+		case'review':
+			budget_ads_review($_GET['id'],$_GET['id_budget'],$_GET['id_ad']);
+		break;
+		case'update':
+			budget_update();
+		break;
+		case'check':
+			budget_check();
+		break;
+		case'delete':
+			budget_delete($_GET['id']);
+		break;
+		case'deleteads':
+			budget_ads_delete($_GET['id'],$_GET['id_ad'],$_GET['id_budget']);
+		break;
+		case'edit':
+			budget_edit($_GET['email'],$_GET['id']);
+		break;
+		case'validate':
+			budget_validate($_GET['id']);
+		break;
+	}
+}
+break;

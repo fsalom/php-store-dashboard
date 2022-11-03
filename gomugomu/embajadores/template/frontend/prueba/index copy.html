@@ -1,0 +1,43 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Prueba</title>
+<link href="{url}style.css" rel="stylesheet" type="text/css" />
+{css}
+{js} 
+</head>
+<body>
+
+	<div id="top">
+		<ul>
+			<li class="current"><a href="#">INICIO</a></li>
+			<li {current}><a href="#">BLOG</a></li>
+			<li {current}><a href="#">SIGN UP</a></li>
+			<li {current}><a href="#">LOGIN</a></li>
+		</ul>
+    </div>
+ 
+    <div id="main">
+    	<div id="container">
+        		<div id="content-top">			
+                    	{login}                     	
+                </div>
+                <div id="content-main">
+                	<div id="content">
+                    	<div id="content-left">
+           					{content}	
+						</div>
+                        <div id="content-right">
+							{left}
+                        </div>
+                        <div class="clear">
+              			</div> 
+					</div>
+                </div>
+                <div id="content-down">
+                </div>
+        </div>
+    </div>
+</body>
+</html>

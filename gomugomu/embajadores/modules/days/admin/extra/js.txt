@@ -1,0 +1,21 @@
+	<script type="text/javascript" src="../core/js/fancybox2/lib/jquery-1.7.2.min.js"></script>
+	<script type="text/javascript" src="../core/js/fancybox2/jquery.fancybox.js?v=2.0.6"></script>
+	<link rel="stylesheet" type="text/css" href="../core/js/fancybox2/jquery.fancybox.css?v=2.0.6" media="screen" />
+	<script type="text/javascript" src="../core/js/fancybox2/helpers/jquery.fancybox-media.js?v=1.0.0"></script>
+<script type="text/javascript">
+	$(document).ready(function() {
+		$('.fancybox').fancybox(
+		{
+		
+
+  'afterClose': function() {
+
+    parent.location.reload(true); ;
+  }
+
+                                      
+		}
+		);
+		
+	});
+</script>

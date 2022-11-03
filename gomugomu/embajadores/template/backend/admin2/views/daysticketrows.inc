@@ -1,0 +1,10 @@
+<tr>
+    <td>{description}</td> 
+    <td>{referenceNr}</td>
+    <td>{original}€</td>
+    <td>{descuento}%</td> 
+    <td>{price}</td> 
+    <td>{iva}€</td>
+    <td>{coste}€</td>
+    <td>{beneficio}€</td>
+</tr>

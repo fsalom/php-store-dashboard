@@ -1,0 +1,272 @@
+
+
+/*-------------------------------------------
+img{ behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc); }
+*/
+
+body {
+	font-family: "Trebuchet MS" , Georgia, Arial, Helvetica;
+	font-size: 12px;
+	margin:0px;
+	padding:0px;
+	background-color:#FFF;
+	text-align: center; /* for IE */
+	text-align:left !important;
+}
+.current{
+	background-color: #333;
+	color: #FFF;
+}
+#top{
+	font-family: Verdana,Helvetica;
+	font-variant: small-caps;
+	font-size: 12px;
+	letter-spacing: 0.3em;
+	height:90px;
+	background-color: #e5e5e5;
+	margin-bottom: 15px;
+	border-bottom: 1px solid #f1f1f1;
+	border-top: 1px solid #f1f1f1;
+}
+#top ul {
+	margin:0px;
+	padding:0px;
+	list-style:none;
+	height:0px;
+}
+#top li {
+	margin:0px;
+	float:left;
+	text-align:center;
+}
+#top li a {
+	display:block; 
+	width:100px;
+	padding: 40px 0px 30px 0px;	
+	height: 20px;
+	border-right: 1px solid #f1f1f1;
+	text-decoration:none;
+	color: #999;
+}
+#top li a:hover {
+	color:#FFF;
+	background-color: #666;
+	background-repeat:no-repeat;
+}
+#login{
+	width: 600px;
+	height: 300px;
+	margin: 0 auto;
+	background-image: url(img/login.png);
+	background-repeat:no-repeat;
+	behavior: url(http://www.hospitalaris.es/template/hospitalaris/iepngfix.htc);
+}
+#top-title{
+	width:450px;
+	height:100px;
+	margin:0 auto;	
+	float: left;
+}
+#main{
+	
+}
+#container{
+	width:980px;
+	margin:0 auto;
+	text-align:justify;
+		background-color:#e5e5e5;
+}
+#content-top{
+	width:940px;
+	margin:0 auto;
+	padding: 20px;
+	background-color:#ddd;
+}
+#content-down{
+	width:980px;
+	height:50px;
+	background-color:#ccc;
+}
+#content-main{
+	width: 980px;
+	background-color:#e5e5e5;
+}
+
+#content-left{
+	width:520px;
+	float:left;
+}
+#content-left a{
+	color: #333;
+	text-decoration: none;
+}
+#content-left a:hover{
+	color: #666;
+	border-bottom: 1px dashed #666;
+}
+#content-right{
+	width:340px;
+	margin-left:40px;
+	text-align:right;
+	float: left;
+	background-color:#bbb;
+}
+#content{
+	padding: 20px 40px;
+	text-align:justify;
+}
+
+.clear{
+	clear:both;
+}
+
+/**************************************************
+*
+*
+*		COMENTARIOS + AÑADIR COMENTARIOS
+*
+*
+**************************************************/
+#content-left{
+	width:520px;
+	float:left;
+	line-height: 1.5em;
+}
+
+.space{
+	height: 30px;
+	border-bottom: 1px solid #999;
+	margin-bottom: 50px;
+}
+
+.new-content img{
+	border: 1px solid #BBB;
+	padding: 4px;
+	background-color: #e5e5e5;
+}
+
+h1 a{
+	color: #333;
+	text-decoration: none;
+}
+h1 a:hover{
+	color: #666;
+}
+.new-comment-textarea{
+	width: 60%;
+	float: left;
+}
+
+.new-comment-textarea textarea{
+	border: 1px solid #666;
+	padding: 5px;
+	width: 90%;
+	color:#666;
+	font-family: "Trebuchet MS" , Arial , Helvetica;
+	font-size: 14px;
+	height: 150px;
+}
+
+.new-comment-fields input:focus {  
+     border-color: #AAA;  
+     background-color: #eee;  
+}  
+
+.new-comment-fields textarea:focus {  
+     border-color: #AAA;  
+     background-color: #eee;  
+}
+
+.new-comment-fields input{
+	border: 1px solid #666;
+	color:#666;
+	width: 100%;
+	padding: 5px;
+}
+
+.new-comment-fields{
+	width: 35%;
+	float: left;
+	text-align: left;
+}
+
+.news-required{
+	color: #AA0000;
+}
+.c-complete{
+	margin: 10px 0 ;
+}
+.c-img{
+	padding: 3px;
+	background-color: #CCC;
+	float: left;
+}
+.c-text{
+	background-color: #f1f1f1;
+	padding: 10px;
+	margin-left: 46px;
+}
+.c-comment{
+	padding: 10px;
+	margin-top: 15px;
+}
+
+.c-author{
+	font-family: Georgia , Geneva , Helvetica; 
+	float: left;
+}
+
+.c-author a{
+	color:#880000;
+	text-decoration: none;
+}
+
+.c-author a:hover{
+	color:#BB0000;
+	text-decoration: underline;
+}
+
+.c-date{
+	width: 150px;
+	font-family: Georgia , Geneva , Helvetica;
+	text-transform: uppercase;
+	text-align: right;
+	float: right;
+}
+
+.c-line{
+	width:300px;
+	margin:30px auto;
+	border-bottom:1px solid #e5e5e5;	
+}
+
+.c-quote{
+	font-family: Georgia , Geneva , Helvetica;
+	margin: 0px 10px ;
+	font-size: 30px;
+}	
+/**************************************************
+*
+*
+*		LOGIN
+*
+*
+**************************************************/
+.login-data{
+	float: left;
+}
+.login-form{
+	float: left;
+	width: 240px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	border: 1px solid #CCC;
+	background-color: #e5e5e5;
+	padding: 3px;
+	height: 20px;
+}
+.login-subtext{
+	font-size: 10px;
+}

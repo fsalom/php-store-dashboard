@@ -1,0 +1,39 @@
+<div id="user-form">
+{board}
+<form name="user" id="user" action="?go=user&do=new&form=1" method="post">
+
+	<div id="user-right">
+		<div id="user-right-button">
+			<a href="#" onclick="document.getElementById('user').submit( ); return false"> Guardar</a>
+		</div>	
+	</div>
+
+	<div id="user-left">
+		<div class="template-label">Username :</div>
+		<span id="user-validateUsername">{validation}</span> 
+		<input type="text" name="username" id="username" value="{username}" class="user-form-pass"/><br/>
+		<input type="hidden" name="usercheck" id="usercheck" value="{usercheck}">
+
+		<div class="template-label">Password :</div> 
+			<div id="user-pass-button">
+				<a href="#" onclick="azar()"> Generar clave aleatoria</a>
+			</div>
+		<input type="text" name="password" id="password" class="user-form-pass"/>
+
+	<br/>
+	<div class="template-label">Email :</div> 
+		<span id="user-validateEmail">{validation}</span> 
+		<input type="text" name="email" id="email" class="user-form-pass"/>
+		<input type="hidden" name="emailcheck" id="emailcheck" value="{emailcheck}">
+	<br/>
+
+	<div class="template-label">Nivel :</div>
+		<select name="level" class="user-form-input">
+			<option value="10">Administrador</option>
+			<option value="5">Usuario</option>
+			<option value="0">Invitado</option>
+		</select>
+	</div>
+
+</form>
+</div>

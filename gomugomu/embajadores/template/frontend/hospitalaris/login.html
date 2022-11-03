@@ -1,0 +1,64 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>Hospitalaris</title>
+<link href="{url}style.css" rel="stylesheet" type="text/css" />
+
+</head>
+
+<body>
+   <div id="subtop">
+    </div>
+	<div id="top">
+    	<div id="container">
+    		<div id="top-title">
+            </div>
+			<div id="top-menu">
+            	<ul>
+                	<li><a href="index.php">INICIO</a></li>
+                    <li><a href="#">NOTICIAS</a></li>
+                    <li><a href="#">CALENDARIO</a></li>
+                    <li><a href="#">IMAGENES</a></li>
+                    <li><a href="#">DESCARGAS</a></li>
+                </ul>
+            </div>
+         </div>
+    </div>
+ 
+    <div id="main">
+    	<div id="container">
+        		<div id="content-top">
+                </div>
+                <div id="content-main">
+                	<div id="content">
+                		<!--<div class="login-button"><img src="{url}img/entrar.jpg"/></div>-->
+                	<form id="auth" method="post" action="?go=auth">
+                		<div class="login-main">
+                			<label for="username">USERNAME<br/>
+                				<span class="subtext">Introduzca su nombre de usuario</span>
+                			</label>
+                		</div>
+                		
+                		<input type="text" name="username" class="form">
+                		<div class="login-main">
+                		<label for="password" class="login-main">PASSWORD<br/>
+                			<span class="subtext">Introduzca su clave de acceso</span>
+                		</label>
+                		</div>
+                		<input type="password" name="password" class="form">
+                		<br/>
+                	
+                	¿Olvido su contraseña?
+                	<div align="right"><input type="submit" value="Entrar"></div>
+                	</form>
+                	</div>
+                </div>
+                <div id="content-down">
+                </div>
+                
+        </div>
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+html{
+	color:#000;
+	margin:0px;
+	padding:0px;
+	font-size:14px;
+	font-family: 'Open Sans Condensed', Verdana;	
+	font-weight: 300;
+	background-color:#000;
+	text-shadow: 1px 1px 0 rgba(0,0,0,0.25);
+}
+#envoltorio{
+	margin:0 auto;
+	text-align:center;
+}
+
+#cabecera{
+	border-radius: 5px 5px 0px 0px;	
+	background-color:#FF9900;
+	padding:30px 10px;
+}
+#cuerpo{
+	/* Gradient */
+    background: #FF7145;
+    background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIxJSIgc3RvcC1jb2xvcj0iIzU5YTNlMCIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiM0MjdhYTgiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+    background: -moz-linear-gradient(top,  #FF9900 1%, #FF7145 100%);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(1%,#FF9900), color-stop(100%,#FF7145));
+    background: -webkit-linear-gradient(top,  #FF9900 1%,#FF7145 100%);
+    background: -o-linear-gradient(top,  #FF9900 1%,#FF7145 100%);
+    background: -ms-linear-gradient(top,  #FF9900 1%,#FF7145 100%);
+    background: linear-gradient(to bottom,  #FF9900 1%,#FF7145 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#FF9900', endColorstr='#FF7145',GradientType=0 );
+
+    
+    /*box-shadow: 0 1px 0 rgba(255,255,255, 0.3), inset 0 1px 0 rgba(255,255,255, 0.3);*/
+}
+#cuerpo p{
+	margin:0px;
+	padding:0px;
+}
+#pie{
+	border-radius: 0px 0px 5px 5px;	
+	background-color:#FF7145;
+	padding:20px 0px;
+	margin-bottom:30px;
+	font-weight:bold;
+	text-align:center;
+	color:#FFFFFF;
+}
+
+.openCV{
+}
+.openCV a{
+	background-color:#FF7145;
+	display: block;
+	padding:15px 0;
+	color:#FFF;
+}
+.openCV a:hover{
+	background-color:#FF9900;
+}
+#contenido{
+	margin: 0 auto;
+	width: 300px;
+	position: relative;
+	display: block;
+    text-align: left;      
+}
+#contenido h2{
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0px;
+	margin:0px;
+	font-size:16px;
+	color:#FFFFFF;
+	text-align:center;
+	text-transform:uppercase;
+}
+#contenido p{
+	padding:10px 20px;
+	color:#FFF;
+	line-height:1.5em;
+}
+.test{
+	width:100px;
+	height:100px;
+	background-color:#FF9900;
+}
+.line{
+	border-top:1px solid #FFFFFF;
+	width:60%;
+	margin:10px auto;
+}
+
+.tright{
+	text-align:right;
+}
+
+.linebreak{
+	border-top:1px solid #000;
+	border-bottom:1px solid #fff;
+	margin:0;
+	line-height:1px;
+	height:0;
+	filter:alpha(opacity=15);
+	opacity:.15;
+	
+}
+
+
+
+
+
+/* CSS reset */
+
+ol,ul,li {
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+caption,th {
+	text-align:left;
+}
+h1,h2,h3,h4,h5,h6 {
+	font-size:100%;
+	font-weight:normal;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/* General Demo Style */
+
+.ie7 body{
+	overflow:hidden;
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+.contenedor{
+	position: relative;
+	text-align: center;
+}
+.clr{
+	clear: both;
+}
+.contenedor > header{
+	padding:40px 0px;
+	margin: 0 auto;	
+    
+}
+
+
+/* Overlays */
+.ui-widget-overlay {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+}
+.ui-accordion .ui-accordion-header {
+	display: block;
+	cursor: pointer;
+	position: relative;
+	margin: 2px 0 0 0;
+	padding: 5px;
+	background-color:#FFE7CA;
+	border-radius:3px;
+	color:#FF9900;
+	font-weight:bold;
+	min-height: 0; /* support: IE7 */
+	font-size: 100%;
+	outline:none;
+}
+.ui-accordion .ui-accordion-icons {
+	padding-left: 20px;
+}
+.ui-accordion .ui-accordion-icons .ui-accordion-icons {
+	padding-left: 20px;
+}
+.ui-accordion .ui-accordion-header .ui-accordion-header-icon {
+	position: absolute;
+	left: 20px;
+	top: 50%;
+	margin-top: -8px;
+}
+.ui-accordion .ui-accordion-content {
+	padding: 2px 20px;
+	border-top: 0;
+	overflow: auto;
+	overflow: hidden;
+	background-color: #FFE7CA;
+}
+
+*:focus {
+    outline: 0;
+}

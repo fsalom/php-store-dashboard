@@ -1,0 +1,48 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="es" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>AdminME</title>
+<link href="{url}style.css" rel="stylesheet" type="text/css" />
+{css}
+{js}
+</head>
+
+<body>
+<div id="container">
+    <div id="top">
+        <div id="top-content">
+            Bienvenido {user} , <a href="?go=logout">Salir</a> | <a href="#">Resportar Bug</a>
+        </div>
+    </div>
+    <div id="top-image">
+        <div id="top-image-right"></div>
+        <div id="top-menu">
+            <ul>
+                <li><a href="?go=news">Escribir</a></li>
+                <li><a href="?go=user">Usuarios</a></li> 
+                <li><a href="?go=files">Ficheros</a></li>                                     
+            </ul>
+        </div>
+        <div id="top-image-logo"></div>
+    </div>
+    
+    <div id="top-submenu">
+            <ul>
+				{submenu}                               
+            </ul>
+    </div>
+    <div id="separator">
+    	{whereIam}
+    </div>
+    <div id="content">
+    {content}
+    </div>
+    
+    <div id="nofooter"></div><!-- No Content Here -->
+</div><!--  End Container -->
+<!--<div id="footer">
+	<div id="footer-img"></div>
+</div>-->
+</html>
+

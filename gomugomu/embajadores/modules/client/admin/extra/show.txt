@@ -1,0 +1,28 @@
+
+<script type="text/javascript" src="../source/js/jquery/jquery.js"></script> 
+<script type="text/javascript" src="../source/js/tablesorter/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="../source/js/corner/jquery.corner.js"></script>
+<script>
+$(document).ready(function() 
+    { 
+        $("#myTable").tablesorter({widgets: ['zebra']}); 
+    } 
+);
+</script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    $(".adorned").corner("5px");
+		
+	});
+</script>
+<script type="text/javascript">
+
+        function confirmar( )
+        {
+            if(confirm( "Are you sure that you want to delete this record?"  ))
+                return true;
+            else
+                return false;
+        }
+
+</script>

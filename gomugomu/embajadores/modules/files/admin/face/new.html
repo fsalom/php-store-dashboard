@@ -1,0 +1,22 @@
+<form action="{action}" method="post" enctype="multipart/form-data">  
+         <div class="template-label">
+         <label for="nombre">Nombre del fichero:</label>  
+         </div>
+        
+         <input type="text" name="nombre" class="file-input" value="{filename}"/> 
+         <br/>
+          <div class="template-label">
+         <label for="nombre">Nombre del fichero:</label>  
+         </div>
+		 {list}
+         <div class="template-label">
+         <label for="file">Fichero:</label>
+         </div>  
+         {file}
+         <br />  
+         <div class="template-label">
+         <label for="description">Descripción del fichero:</label>  
+         </div>
+         <textarea name="description" class="file-textarea">{description}</textarea>
+         <input type="submit" name="submit" value="Subir nuevo fichero" />  
+ </form> 

@@ -1,0 +1,6 @@
+<IfModule mod_rewrite.c>
+RewriteBase /
+RewriteEngine on
+Options +FollowSymlinks
+ErrorDocument 404 /template/system/404.html
+Rewriterule ^(.*)\.html$ $1.php

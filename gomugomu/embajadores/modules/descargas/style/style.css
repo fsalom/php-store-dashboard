@@ -1,0 +1,102 @@
+@charset "utf-8";
+
+.new-content{
+	font-size: 14px;
+	margin: 10px 0px;
+}
+.new-subtitle{
+	font-size: 10px;
+	margin: 4px 0px;
+	text-align: left;
+	font-weight: bold;
+}
+#new-comment{
+	margin-top: 20px;
+	padding-top: 10px;
+	border-top: 1px solid #e5e5e5;
+}
+
+.new-comment-textarea{
+	width: 60%;
+	float: left;
+}
+
+.new-comment-textarea textarea{
+	border: 1px solid #e5e5e5;
+	padding: 5px;
+	width: 90%;
+	color:#666;
+	font-family: "Trebuchet MS" , Arial , Helvetica;
+	font-size: 14px;
+	height: 150px;
+}
+
+.new-comment-fields input{
+	border: 1px solid #e5e5e5;
+	color:#666;
+	width: 100%;
+	padding: 5px;
+}
+
+.new-comment-fields{
+	width: 35%;
+	float: left;
+	text-align: left;
+}
+
+.news-required{
+	color: #AA0000;
+}
+.c-img{
+	border: 1px solid #DDD;
+	padding: 3px;
+	float: left;
+	margin: 2px 5px;
+}
+.c-complete-add{
+	border-top:1px solid #e5e5e5;
+	padding: 10px;
+	width: 98%;
+	font-size: 12px;
+	background: #e5e5e5;
+	margin: 10px 0;
+}
+.c-complete{
+	border-top:1px solid #e5e5e5;
+	padding: 10px;
+	width: 98%;
+	font-size: 12px;
+	margin: 10px 0;
+}
+.c-comment{
+	padding: 10px;
+	width: 98%;
+	clear: both;
+}
+
+.c-author{
+	font-family: Georgia , Geneva , Helvetica; 
+	width: 300px;
+	float: left;
+}
+.c-author a{
+	color:#880000;
+	text-decoration: none;
+}
+.c-author a:hover{
+	color:#BB0000;
+	text-decoration: underline;
+}
+.c-date{
+	width: 150px;
+	font-family: Georgia , Geneva , Helvetica;
+	text-transform: uppercase;
+	text-align: right;
+	float: right;
+	
+}
+.c-quote{
+	font-family: Georgia , Geneva , Helvetica;
+	margin: 0px 10px ;
+	font-size: 30px;
+}

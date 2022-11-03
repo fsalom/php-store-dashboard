@@ -1,0 +1,243 @@
+@charset "utf-8";
+@import url("menu.css");
+.comment-options{
+	width: 300px;
+	float: right;
+	padding: 6px;
+	text-align: right;
+}
+.comments{
+	border: 1px solid #DDD;
+	padding: 10px;
+	color: #000;
+	line-height: 1.5em;
+	text-align: justify;
+	margin: 10px 0px;
+}
+.comment-content{
+margin: 20px 0;
+clear: both;
+}
+.comment-img{
+	padding: 3px;
+	border: 1px solid #DDD;
+	margin: 3px;
+}
+.comment-user{
+	padding: 6px;
+	margin-left: 50px;
+}
+#news-form{
+	
+	padding: 10px;
+	margin:0;
+}
+#news-form form{
+	padding: 0px;
+	margin: 0px;
+}
+
+/*ADMIN*/
+
+#news-left{
+	width: 78%;
+}
+#news-right p{
+	padding:5px 10px;
+}
+#news-right p a{
+	color:#333;
+	text-decoration: none;
+}
+#news-right p a:hover{
+	color:#666;
+}
+#news-right{
+	width: 140px;
+	float: right;
+	background-color: #e5e5e5;
+	padding: 10px;
+-webkit-border-radius: 5px;
+-moz-border-radius: 5px;
+border-radius:5px;
+}
+.news-right-main{
+	margin-bottom: 10px;
+	padding: 10px;
+}
+#news-right-button{
+	padding: 0px;
+	color:#FFF;
+}
+#news-right-content{	
+	height: 30px;
+}
+
+#news-right-content a{
+	display: block;
+	width:100%;
+	height: 20px;
+	background-color: #999;
+	text-decoration: none;
+	color:#e5e5e5;
+	float: left;
+	padding:5px 2px 0px 2px;
+	margin: 0 1px;
+	text-align: center;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius:5px;
+}
+
+.news-links-comment a{
+	background-image:url(http://www.fernandosalom.es/modules/news/admin/img/comment.png);
+	display: block;
+	color: #FFFFFF;
+	padding: 3px 3px;
+	width: 19px;
+	text-align: center;
+	text-decoration: none;
+	height: 19px;
+	margin: 0px;
+	background-color: #333;
+}
+.news-links-comment a:hover{
+	color: #D54E21;
+}
+
+
+
+#news-right-content a:hover{
+	background-color: #666;
+	color:#FFF;
+}
+#news-right h1{
+	font-size: 14px;
+	padding: 0px;
+	margin-top:5px;
+	text-align: center;
+	margin-bottom: 10px;	
+	font-weight: bold;
+	color: #333333;
+}
+#news-board{
+	padding: 20px;
+	border: 1px solid #c1bb98;
+	margin: 0 auto;
+}
+#news-category{
+	padding: 5px;
+	background-color: #e5e5e5;
+	margin-top:15px; 
+}
+.news-date{
+	border: 1px solid #333;
+	padding: 3px;
+	font-family:"Trebuchet MS" , arial , verdana;
+	font-size: 14px;
+	margin: 2px;
+}
+#news-cat{
+	border:1px solid #ccc;
+	padding: 10px;
+}
+
+
+
+.news-option{
+	float: left;
+	padding: 3px;
+	}
+
+a:focus {
+	outline: none;
+}
+#panel {
+	background: #cceaf2;
+	color: #000;
+	padding: 5px;
+	display: none;
+	margin-bottom: 10px;
+}
+.slide {
+	margin: 0;
+	padding: 0;
+	border-top: solid 4px #422410;
+	background: url(images/btn-slide.gif) no-repeat center top;
+}
+
+.active {
+	background-position: right 12px;
+}
+
+#news-image{
+	padding: 5px;
+	background-color: #eaeaea;
+	border: 1px solid #DDD;
+}
+#news-image2{
+	padding: 5px;
+	color: #000;
+}
+#news-image img{
+	margin:1px;
+}
+#news-upload{
+	margin: 5px 0;
+}
+.news-image{
+	border: 1px solid #DDD;
+	width:80%;
+	padding: 3px;
+}
+.news-form-cat{
+	border: 1px solid #DDD;
+	background-color: #e5e5e5;
+	width: 98%;
+	margin: 0 auto;
+	padding: 3px;
+}
+#news-menu ul{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+}
+#news-menu li{
+	display: block;
+	padding: 5px;
+	margin: 0px;
+}
+#news-menu li a{
+	border: 1px solid #666;
+}
+#news-menu li a:hover{
+	border: 1px solid #FF0000;
+}
+.tag{
+	padding: 5px;
+	border-bottom: 1px solid #CCC;
+	font-size: 10px;
+	letter-spacing: 0px;
+}
+.tag_child{
+	border-bottom: 1px solid #CCC;
+	padding-left: 20px;
+	padding-right: 5px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	background-color: #f1f1f1;
+	font-size: 10px;
+	letter-spacing: 0px;
+}
+.clear{
+clear: both;
+}
+
+
+.hoverme:hover .hasBackgroundColor {
+	background-color:#333 !important;
+}
+
+
+
+

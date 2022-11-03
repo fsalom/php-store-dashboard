@@ -1,0 +1,24 @@
+<div id="user-form">
+{board}
+<form name="user" id="user" action="?go=user&do=edit&form=1" method="post">
+
+	<div id="user-right">
+		<div id="user-right-button">
+			<a href="#" onclick="document.getElementById('user').submit( ); return false"> Guardar</a>
+		</div>	
+	</div>
+
+	<div id="user-left">
+
+	<div class="template-label">Nivel :</div>
+		<select name="level" class="user-form-input">
+			<option value="admin" {admin}>Administrador</option>
+			<option value="usuario" {usuario}>Usuario</option>
+			<option value="invitado" {invitado}>Invitado</option>
+		</select>
+	</div>
+	<input type="hidden" name="id" value="{id}">
+	<input type="hidden" name="email" value="{email}">
+
+</form>
+</div>

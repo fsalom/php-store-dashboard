@@ -1,0 +1,50 @@
+
+<script type="text/javascript" src="../source/js/jquery/jquery.js"></script> 
+<script type="text/javascript" src="../source/js/tablesorter/jquery.tablesorter.js"></script>
+<script type="text/javascript" src="../source/js/curvicorners/jquery.curvycorners.min.js"></script>
+<script type="text/javascript" src="../modules/news/admin/extra/news.js"></script>
+
+
+<script>
+
+
+$(document).ready(function(){
+$("#checkAllAuto").click(function(){
+		$("INPUT[type='checkbox']").attr("checked", $("#checkAllAuto").is(":checked"));	
+});
+
+    $(".news-right-main").corner("10px");
+	$(".news-button").corner("10px");
+	$("#myTable").tablesorter({widgets: ['zebra']}); 
+	 
+	$(".template-label").corner({
+			  tl: { radius: 6 },
+			  tr: { radius: 6 },
+			  bl: { radius: 6 },
+			  br: { radius: 6 }});
+	$(".news-delete-button").corner({
+			  tl: { radius: 6 },
+			  tr: { radius: 6 },
+			  bl: { radius: 6 },
+			  br: { radius: 6 }});
+			  	  
+	$(".btn-slide2").click(function(){
+		$("#panel2").slideToggle("slow");
+		$(this).toggleClass("active"); return false;
+	});	 
+
+	$(".btn-slide").click(function(){
+		$("#panel").slideToggle("slow");
+		$(this).toggleClass("active"); return false;
+	});
+	
+	
+		
+});
+
+function validar(){
+   if (confirm("Esta seguro que desea eliminar las noticias seleccionadas y sus comentarios?" )){
+      document.delete.submit()
+   }
+}
+</script>

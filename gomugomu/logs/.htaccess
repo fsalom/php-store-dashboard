@@ -1,0 +1,14 @@
+Options +Indexes
+RemoveHandler .html
+RemoveType .html
+AddType text/html .html
+Satisfy any
+Order Deny,Allow
+Allow from 212.227.112.228
+Deny from all
+AuthType Basic
+AuthName "Access to /logs"
+AuthUserFile /kunden/homepages/15/d447934925/htpasswd
+Require user u71676452
+
+AddHandler x-mapp-php5 .php3 .php4 .php .phtml

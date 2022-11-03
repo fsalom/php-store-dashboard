@@ -1,0 +1,26 @@
+case 'news':
+if(!$_GET['do']){
+	news();
+}else{
+	switch($_GET['do']){
+		case'new':
+			news_new();
+		break;
+		case'insert':
+			news_insert();
+		break;
+		case'delete':
+			news_delete();
+		break;
+		case'edit':
+			news_edit($_GET['id']);
+		break;
+		case'comments':
+			news_comments($_GET['id']);
+		break;
+		case'comment':
+			news_comment($_GET['id'],$_GET['op']);
+		break;
+	}
+}
+break;

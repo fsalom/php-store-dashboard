@@ -1,0 +1,20 @@
+case 'files':
+if(!$_GET['do']){
+	files_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			files_new();
+		break;
+		case'upload':
+			files_upload();
+		break;
+		case'newg':
+			files_new_group();
+		break;
+		case'showg':
+			files_show_group();
+		break;
+	}
+}
+break;

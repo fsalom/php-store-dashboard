@@ -1,0 +1,47 @@
+case 'days':
+if(!$_GET['do']){
+	days_show();
+}else{
+	switch($_GET['do']){
+		case'weeks':
+			days_weeks();
+		break;
+		case'control':
+			days_control();
+		break;
+		case'controlday':
+			days_control_value();
+		break;
+		case'new':
+			days_new();
+		break;
+		case'update':
+			days_update();
+		break;
+		case'foreigner':
+			days_foreigner();
+		break;
+		case'ticket':
+			days_ticket($_GET['id']);
+		break;
+		case'tickets':
+			days_tickets();
+		break;
+		case'delete':
+			days_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			days_edit($_GET['id']);
+		break;
+		case'validate':
+			days_validate($_GET['id']);
+		break;
+		case'add':
+			days_add($_GET['id_item']);
+		break;
+		case'stats':
+			days_stats();
+		break;
+	}
+}
+break;

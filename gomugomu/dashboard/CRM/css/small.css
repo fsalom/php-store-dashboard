@@ -1,0 +1,78 @@
+@import url("general.css");
+
+#content-NEW{
+	width: 280px;
+	margin:  0 auto;
+	margin-top: 10px;
+	background-color: #FFF;
+	padding: 10px;	
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+}
+	
+#main-search{
+	display:none;					
+}	
+/*************************************************************
+	NUEVO USUARIO
+*************************************************************/
+#NEW{
+  	display:none;
+}
+
+#CERRAR{
+   	font-size:20px;
+   	font-weight:bold;
+   	background-color:#000;
+   	color:#FFF;
+   	display:block;
+   	padding:5px;
+   	border-radius:20px;
+   	text-decoration:none;
+   	position:relative;
+   	top:-30px;
+   	width:30px;
+   	text-align:center;
+   	right:-260px;
+}
+
+/*************************************************************
+	TABLA LISTADO DE CLIENTES
+*************************************************************/
+
+.tablaClientes tr td:nth-child(3), .tablaClientes tr td:nth-child(4),
+.tablaClientes tr th:nth-child(3),.tablaClientes tr th:nth-child(4) {
+    display: none;
+}
+/*************************************************************
+	TABLA CON DIVS
+*************************************************************/
+.table-content{   	
+   	border-radius:5px;
+   	padding:10px;
+}
+.table-row{
+   	padding:5px;
+}
+.table-col{
+	float:none;
+}
+
+.r5{background-radius:5px;}
+.grey{background-color:#e5e5e5;}
+.lightgrey{background-color:#f1f1f1;}
+.s100{width:98%;margin-left:1%;margin-right:1%;}
+.s75{width:98%;margin-left:1%;margin-right:1%;}
+.s50{width:98%;margin-left:1%;margin-right:1%;}
+.s25{width:98%;margin-left:1%;margin-right:1%;}
+
+
+#main-content h1{
+	font-size: 20px;
+   	font-weight:normal;
+   	padding:0px;
+   	margin:0px;
+   	padding-bottom:0px;
+}
+

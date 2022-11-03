@@ -1,0 +1,56 @@
+
+
+<div id="news-form">
+{board}
+<form name="news_form" id="new" action="index.php?go=news&do=new&form=1" method="post">
+
+<div id="news-right">
+	<div class="news-right-main">
+		<div id="news-right-button">
+	<div id="news-right-content">
+			<!--<input type="submit" name="save" value="Guardar" class="news-button" />
+		<input type="submit" name="publish" value="Publicar" class="news-button"/>
+
+		<input type="button" name="save" value="Guardar" onClick="document.news_form.action='index.php?go=news&do=new&form=1&status=1'; document.news_form.submit();" class="news-button"/>-->
+
+<input type="submit" name="publish" value="Publicar"class="news-button"/>
+	</div>
+	</div>	
+	</div>
+
+	<div id="news-image2">
+		<!--<h1>Categoria</h1>
+		<div id="news-new-cat">
+			
+			<input type="text" id="name" name="name" class="news-form-cat">
+			{cat}<input type="button" value="Añadir" id="sendcat">
+			
+		</div>
+		
+		<div id="news-category">
+			
+			{category}
+			<div id="news-new-category">
+			</div>
+			<div class="clear"></div>
+		</div>-->
+	</div>
+	
+
+</div>
+
+
+
+
+<div id="news-left">
+
+	<div class="template-label">Titulo :</div> <input type="text" name="title" id="title" value="{title}" class="news-form-input"/><br/><br/>
+			
+	
+	<div class="template-label">Contenido :</div>
+	<textarea id="more"  name="more" rows="15" cols="80" style="width: 100%;">{more}</textarea><br/>
+	<div class="template-label"></div>
+	</div>
+</form>
+</div>
+<div class="clear"></div>

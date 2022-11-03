@@ -1,0 +1,10 @@
+<?php
+//-
+$_language="es";
+$_templateDir="template/";
+$_templateName="prueba/";
+$_templateAdmin="admin/";
+$_urlmenu="core/var/arrays/AMenu.php";
+$_urlmodules="core/var/Modules.php";
+$_websiteName="http://www.hospitalaris.es/";
+?>

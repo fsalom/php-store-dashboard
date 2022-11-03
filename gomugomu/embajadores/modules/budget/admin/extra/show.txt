@@ -1,0 +1,58 @@
+ <script src="http://code.jquery.com/jquery-latest.js"></script>
+<script type="text/javascript">
+
+$(document).ready(function(){
+$(".search").keyup(function() 
+{
+var searchbox = $(this).val();
+var dataString = 'searchword='+ searchbox;
+if(searchbox=='')
+{
+$("#display").hide();
+}
+else
+{
+$.ajax({
+type: "POST",
+url: "budget.php",
+data: dataString,
+cache: false,
+success: function(html)
+{
+$("#display").html(html).show();
+}
+});
+}return false; 
+});
+});
+</script>
+
+
+<script type="text/javascript">
+
+$(document).ready(function(){
+	
+	$(".searchclient").keyup(function() {
+		var searchclient = $(this).val();
+		var dataString = 'searchword='+ searchclient;
+		if(searchclient=='')
+		{}
+		else
+		{
+		$.ajax({
+			type: "POST",
+			url: "budgetclient.php",
+			data: dataString,
+			cache: false,
+			success: function(html)
+		{
+		$("#displayclient").html(html).show();
+		}
+		});
+		}return false; 
+	});
+
+});
+
+
+</script>

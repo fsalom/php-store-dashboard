@@ -1,0 +1,29 @@
+case 'material':
+if(!$_GET['do']){
+	material_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			material_new();
+		break;
+		case'update':
+			material_update();
+		break;
+		case'check':
+			material_check();
+		break;
+		case'delete':
+			material_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			material_edit($_GET['id']);
+		break;
+		case'validate':
+			material_validate($_GET['id']);
+		break;
+		case'add':
+			material_add($_GET['id']);
+		break;
+	}
+}
+break;

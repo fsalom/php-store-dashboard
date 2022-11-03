@@ -1,0 +1,11 @@
+Entrar en PLESK
+> Sitios web y dominios
+> Opciones avanzadas
+> Tareas programadas
+
+Ejemplo wget -q -O /dev/null http://www.gomugomu.es/dashboard/cron/DB_backup.php
+-------------------------------------------------------------------------
+Se hace el backup cada domingo a las 00:02 y son de aproximadamente 5MB
+
+En un año 5*52 habría unos 260MB en backups
+-------------------------------------------------------------------------

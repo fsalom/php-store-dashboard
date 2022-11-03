@@ -1,0 +1,146 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<title>GRUPO SAN RAMON</title>
+<base href="http://www.gruposanramon.es/"/></base>
+<link type="text/css" rel="stylesheet" href="{url}style.css"/>
+<link rel="shortcut icon" href="favicon.ico" type="image/ico" />
+{js}
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1359233-7']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head>
+<body>
+<div id="main">
+	
+		<div id="top">
+			
+			<img src="{url}img/gruposanramon.jpg" alt="GRUPO SAN RAMON">
+			
+			<div id="top-menu">
+				<ul>
+					<li><a href="inicio/" {current1}>INICIO</a></li>
+					<li><a href="quienes-somos/" {current2}>QUIENES SOMOS</a></li>
+					<li><a href="que-hacemos/" {current3}>QUE HACEMOS</a></li>
+					<li><a href="visitanos/" {current4}>VISITANOS</a></li>
+					<li><a href="blog/" {current5}>BLOG</a></li>
+					<li><a href="localizacion/" {current6}>LOCALIZACION</a></li>
+					<li><a href="contactar/" {current7}>CONTACTAR</a></li>
+				</ul>
+				<div class="clear"></div>
+				
+			</div>
+			<div class="line"></div>
+		</div>
+		<div id="main-content">
+			
+			<div id="slogan">
+				<?php
+$numbanners = 3; //numero de banners que se rotarán
+$random = rand(1,$numbanners);
+
+echo '<img src="{url}img/soloelamorsuperalaleche'.$random.'.jpg" longdesc="Solo el amor supera la leche">';
+?>
+	
+			</div>
+			<div class="line"></div>
+			<div class="space10"></div>
+			<div class="space10"></div>
+			<!-- Abrimos col3-->
+			<div id="content">
+			<div id="info">
+				
+				{content}
+			</div>
+			<div id="info_menu">
+				<h2>Sobre nosotros</h2> 
+				<ul> 
+					<li><a href="quienes-somos/">Quiénes somos</a></li> 
+					<li><a href="visitanos/">Visítanos</a></li> 
+					<li><a href="blog/">Blog</a></li> 
+				</ul> 
+			</div>
+
+			</div>
+			<!-- Cerramos col3-->
+			<div class="clear"></div>
+		</div>
+		<div id="footer">
+			<div id="footer-info">
+				
+				<table cellpadding="0" cellspacing="0" border="0" width="100%">
+					<tr>
+						<td width="25%"><strong class="white">HOME</strong></td>
+						<td width="50%"><strong class="white">QUE HACEMOS</strong></td>
+						<td width="25%"><strong class="white">CONTACTANOS</strong></td>
+					</tr>
+					<tr valign="top">
+						<td>
+						<a href="quienes-somos/">Quiénes somos</a>
+						<a href="visitanos/">Visítanos</a>
+						<a href="blog/">Blog</a>
+					</td>
+					<td>
+						<table cellpadding="0" cellspacing="0" border="0" width="100%">
+							<tr valign="top">
+								<td>
+									
+										<a href="que-hacemos/">Ganaderia</a>
+										<a href="biocombustible/">Biocombustible</a>
+										<a href="produccion/">Producción</a>
+										<a href="eventos/">Eventos</a>
+									
+								</td>
+								<td>
+									
+										<a href="formacion/">Formación</a>
+										<a href="visitas-guiadas/">Visitas guiadas</a>
+										<a href="consultoria/">Consultoría</a>
+									
+								</td>
+							</tr>
+						</table>
+						</td>
+						<td valign="top">
+						<a href="contactar/">Contactar</a>
+						<a href="localizacion/">Donde estamos</a>
+					</td>
+					</tr>
+
+				</table>
+	
+					
+				
+				
+			</div>
+			
+			<div id="footer-suscribe">
+				<strong class="white">SUSCRIBETE A NUESTRA NEWSLETTER</strong>
+				<div><br/>
+					<form method="post" action="?go=suscribe">
+					<input type="text" name="email" id="suscribe">
+					<input type="submit" id="send" value="ENVIAR">
+					</form>
+				</div>
+			</div>
+			<div class="clear"></div>
+		</div>
+		<div id="footer-extra">
+			gruposanramon.com
+		</div>
+	</div>
+	
+</div>
+</body>
+</html>

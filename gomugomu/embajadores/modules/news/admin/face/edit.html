@@ -1,0 +1,42 @@
+<div id="news-form">
+{board}
+<form name="news_form" id="new" action="index.php?go=news&do=edit&form=1" method="post">
+<input type="hidden" name="id" value="{id}">
+<div id="news-right">
+	<div class="news-right-main">
+		<div id="news-right-button">
+		<div id="news-right-content">
+		<select name="type">
+			<option value="0" {select1}>Publicar</option>
+			<option value="1" {select2}>Borrador</option>
+		</select>
+		<br/><br/>
+		<div class="news-button"><a href="#" onClick="document.news_form.submit();">Guardar</a></div>
+
+<!--<input type="button" name="publish" value="Publicar" onClick="document.news_form.action='index.php?go=news&do=edit&form=1&status=0'; document.news_form.submit();" class="news-button"/>-->
+	</div>
+	</div>	
+	</div>
+
+
+</div>
+
+
+
+
+<div id="news-left">
+
+	<div class="template-label">Titulo :</div> <input type="text" name="title" id="title" value="{title}" class="news-form-input"/><br/><br/>
+		
+	            
+
+	
+	<div class="clean"></div>
+	<input type="hidden" name="id" value="{id}">
+	<input type="hidden" name="status" value="{status}">
+	<div class="template-label">Contenido :</div>
+	<textarea id="more"  name="more" rows="15" cols="80" style="width: 100%;">{more}</textarea><br/>
+
+</div>
+</form>
+</div>

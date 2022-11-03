@@ -1,0 +1,104 @@
+body{
+color:#000;
+font-size:12px;
+font-weight: normal;
+font-family:verdana, 'time new romans', serif;
+margin:0 auto;
+height: 300px;
+background-color:#f1f1f1;
+}
+
+#content{
+	margin:  0 auto;
+	margin-top: 50px;
+	background-color: #FF9900;
+	width: 440px;
+	padding: 30px;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+}
+.notification{
+
+background-color: #ed7c7c;
+border:1px solid #a52020;
+padding:10px 0px 10px 30px;
+margin:0 auto;
+color:#FFF;
+font-weight:700;
+font-size:11px;
+width: 500px;
+text-align: center;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;	
+}
+
+.green{
+
+background-color: #e8f1c4;
+border:1px solid #cad883;
+padding:30px;
+margin:0 auto;
+margin-top: 50px;
+color:#608c21;
+width: 440px;
+font-weight:700;
+font-size:14px;
+-moz-border-radius:5px;
+-webkit-border-radius:5px;
+border-radius:5px;
+}
+
+
+.input{
+	width: 90%;
+	padding: 10px;
+	font-size: 18px;
+	outline: none;
+}
+.button {
+	display: block;
+	zoom: 1; /* zoom and *display = ie7 hack for display:inline-block */
+	*display: inline;
+	vertical-align: baseline;
+	padding: .5em 3em ;
+	font-family: "Trebuchet MS", Verdana;
+	font-size: 12px;
+	margin: 0 auto;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	-webkit-border-radius: .3em; 
+	-moz-border-radius: .3em;
+	border-radius: .3em;
+
+}
+.button:hover {
+	text-decoration: none;
+}
+.button:active {
+	position: relative;
+	top: 1px;
+}
+
+.white {
+	color: #666;
+	border: solid 1px #b7b7b7;
+	background: #fff;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#ededed));
+	background: -moz-linear-gradient(top,  #fff,  #ededed);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');	
+}
+.white:hover {
+	background: #ededed;
+	color: #333;
+	background: -webkit-gradient(linear, left top, left bottom, from(#fff), to(#dcdcdc));
+	background: -moz-linear-gradient(top,  #fff,  #dcdcdc);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#dcdcdc');
+}
+.white:active {
+	color: #999;
+	background: -webkit-gradient(linear, left top, left bottom, from(#ededed), to(#fff));
+	background: -moz-linear-gradient(top,  #ededed,  #fff);
+	filter:  progid:DXImageTransform.Microsoft.gradient(startColorstr='#ededed', endColorstr='#ffffff');
+}

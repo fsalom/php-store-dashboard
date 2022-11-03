@@ -1,0 +1,26 @@
+case 'item':
+if(!$_GET['do']){
+	item_show();
+}else{
+	switch($_GET['do']){
+		case'new':
+			item_new();
+		break;
+		case'update':
+			item_update();
+		break;
+		case'check':
+			item_check();
+		break;
+		case'delete':
+			item_delete($_GET['email'],$_GET['id']);
+		break;
+		case'edit':
+			item_edit($_GET['id']);
+		break;
+		case'validate':
+			item_validate($_GET['id']);
+		break;
+	}
+}
+break;
